@@ -2,6 +2,7 @@
     <string name="app_name">SIS</string>
     <string name="input_login">Введите логин</string>
     <string name="input_password">Введите пароль</string>
-    <string name="output_qr">Ваш персональный QR. Поднесите его к считывателю для входа в аудиторию.</string>
+    <string name="output_qr">Ваш персональный QR.
+        Поднесите его к считывателю для входа в аудиторию.</string>
     <string name="button_qr">Сгенерировать QR</string>
 </resources>
