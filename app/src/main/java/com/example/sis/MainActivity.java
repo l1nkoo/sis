@@ -18,6 +18,7 @@ import com.google.zxing.WriterException;
 import com.google.zxing.common.BitMatrix;
 import com.journeyapps.barcodescanner.BarcodeEncoder;
 
+import java.util.Date;
 import java.util.HashMap;
 
 public class MainActivity extends AppCompatActivity {
@@ -26,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
     EditText qrInput;
     Button qrButton;
     ImageView qrOutput;
-
+    Date date;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,11 +35,13 @@ public class MainActivity extends AppCompatActivity {
         qrInput = findViewById(R.id.qr_input);
         qrButton = findViewById(R.id.btn_qr);
         qrOutput = findViewById(R.id.qr_output);
+
         qrButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 // забираем значение из поля ввода для генерации
-                String genText = qrInput.getText().toString().trim();
+                date = new Date();
+                String genText = qrInput.getText().toString().trim()+date.getTime();
                 MultiFormatWriter writer = new MultiFormatWriter();
                 try {
                     BitMatrix matrix = writer.encode(genText, BarcodeFormat.QR_CODE, 350, 350);
