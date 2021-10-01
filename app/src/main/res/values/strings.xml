@@ -8,4 +8,6 @@
     <string name="logoIN">вход</string>
     <string name="User_field_Email_hint">Email</string>
     <string name="User_field_password_hint">Пароль</string>
+    <string name="user_sfedu">projectoffice</string>
+    <string name="pass_sfedu">q90h5ju4</string>
 </resources>
