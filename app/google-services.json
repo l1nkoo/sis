@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1006490225208",
+    "project_id": "sis-project-9457c",
+    "storage_bucket": "sis-project-9457c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1006490225208:android:0c295d15d7e67a97b8f4cd",
+        "android_client_info": {
+          "package_name": "com.example.sis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1006490225208-h3p1muath49ishmoe24p24nht4j2phtj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCS7tyowLd-rM0wknUPtDZGekpc5vnK8zs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1006490225208-h3p1muath49ishmoe24p24nht4j2phtj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

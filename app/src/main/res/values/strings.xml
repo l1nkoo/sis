@@ -5,4 +5,7 @@
     <string name="output_qr">Ваш персональный QR.
         Поднесите его к считывателю для входа в аудиторию.</string>
     <string name="button_qr">Сгенерировать QR</string>
+    <string name="logoIN">вход</string>
+    <string name="User_field_Email_hint">Email</string>
+    <string name="User_field_password_hint">Пароль</string>
 </resources>
